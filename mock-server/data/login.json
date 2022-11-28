@@ -1,0 +1,8 @@
+{
+  "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdXBlcmFkbWluIiwiaWF0IjoxNjU3NTQxMTQ5LCJleHAiOjE2NTc2Mjc1NDl9.KSUSKUUi4rQUjtVtWsFKshmfk9AMiDmZUAsLpmr8eU9bLBMqKbLkeW2wPfV94P3iBcInqCku6_18NRGEHNag1g",
+  "type": "Bearer",
+  "id": 999,
+  "username": "superadmin",
+  "email": "superadmin@gmail.com",
+  "roles": ["ROLE_INSPECTOR"]
+}

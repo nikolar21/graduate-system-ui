@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "firstname": "John",
+    "lastname": "Doe",
+    "title": "prof",
+    "faculty": "Maths",
+    "disciplines": "Algebra"
+  },
+  {
+    "id": "2",
+    "firstname": "ASD",
+    "lastname": "QWE",
+    "title": "assistant",
+    "faculty": "Physics",
+    "disciplines": "Thermodynamics"
+  },
+  {
+    "id": "3",
+    "firstname": "Jane",
+    "lastname": "Ayre",
+    "title": "prof",
+    "faculty": "Chemistry",
+    "disciplines": "Ogranic"
+  }
+]

@@ -1,0 +1,26 @@
+version: "3.9"
+
+x-common-variables: &common-variables
+  REACT_APP_ENV: mock
+  REACT_APP_ENV_UI_PORT: 3000
+  MOCK_SERVE_PORT: 8081
+
+services:
+  ui-service:
+    build:
+      context: .
+      args:
+        *common-variables
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src:/app/src
+
+  mock-server:
+    build: mock-server
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./mock-server:/app
+    environment:
+      *common-variables

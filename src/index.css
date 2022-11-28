@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(230,230,230);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.valid {
+  visibility: visible;
+}
+
+.form-page-container {
+  width: 55vw;
+  height: auto;
+  margin: 50px auto;
+  background: rgb(255,255,255);
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-page-container h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form-container {
+  height: 100%;
+  margin: 20px auto auto 10%;
+}
+
+.registration-form-container {
+  margin-top: 5%;
+  height: 120vh;
+}
+
+.image-container {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.role-select {
+  margin-bottom: 35px;
+}
+
+.login-button {
+  margin-top: 40px;
+}
+
+.search-field {
+  margin-top: -25px !important;
+  margin-bottom: 25px !important;
+}
+
+.homepage-container {
+  padding-top: 50px;
+}
+
+.project-card {
+  margin-bottom: 20px;
+}
+
+.project-card-comments {
+  margin-bottom: 5px;
+}
+
+.lower-opacity-info{
+  opacity: 45%;
+  font-size: 16px;
+}
+
+.higher-opacity-info {
+  font-size: 16px;
+}
+
+.stepper-container {
+  margin-top: 30px;
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 25px;
+}
